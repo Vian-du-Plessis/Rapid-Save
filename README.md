@@ -17,16 +17,15 @@
 <p align="center">
 
   <a href="https://github.com/Vian-du-Plessis/Rapid-Save">
-    <img src="https://drive.google.com/uc?export=view&id=1z774ujlhRg6xsgnICGL_N6jVTPHwFj8E" alt="Logo" width="140" height="160">
+    <img src="https://drive.google.com/file/d/1xbFd7OvJXlaedvcAID9Zziva8Rj_cqdA/view?usp=sharing" alt="Logo" width="140" height="160">
   </a>
   
   <h2 align="center">Budget Nest</h2>
 
   <p align="center">
-    This is a project that has been built with React in order to learn the fundamentals of Jest & RTL (React Testing Library), the aim of the project is to help users understand their income and to budget! 
+    This is a project we had to built for Term 2 of Unit Testing to learn Jest & RTL (React Testing Library), this app is to help users manage their income and expenses. 
     <br/>
-    <i>This project is not live, the main aim was to implement tests!</i> 
-    
+
    <br />
    <br />
    <a href="path/to/demonstration/video">View Demo</a>
@@ -47,13 +46,7 @@
 * :point_right: [Getting Started](#getting-started)
 * :point_right: [Prerequisites](#prerequisites)
 * :point_right: [How to install](#how-to-install)
-* :point_right: [Features and Functionality](#features-and-functionality)
-* :point_right: [Development Process](#development-process)
-* :point_right: [Implementation Process](#implementation-process)
 * :point_right: [Tests](#implementation-process)
-* :point_right: [Highlights](#highlights)
-* :point_right: [Challenges](#challenges)
-* :point_right: [Future Implementation](#peer-reviews)
 * :point_right: [Final Outcome](#final-outcome)
 * :point_right: [Mockups](#mockups)
 * :point_right: [Video Demonstration](#video-demonstration)
@@ -71,13 +64,13 @@
 
 Budget Nest is a web based application that has been build with React, Chartsjs, Bootstrap, SCSS, Jest and RTL. This application focuses on giving users the opportunity to view their finances to find out what tax bracket they fall into, to list their expenses and set out an amount that they want to save. The web app will aid users in understanding their current finances through the visualisation of data through chartsjs. Budget Nests main goal is to deliver a flawless experience through making sure all features work, this is accomplished by the implementation of Jest/RTL unit testing library. 
 
+Rapid Save is a web app that has been built with React & SCSS. This app is used to help users keep track of their earnings and spending through a simple and easy to use interface. The development of this application was aided through the use of RTL & Jest to ensure that all features and functionality work.
+
 ### Built With
 
 * [React](https://reactjs.org/)
 * [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 * [Jest](https://jestjs.io/)
-* [Bootstrap](https://getbootstrap.com/)
-* [Chartsjs](https://www.chartjs.org/)
 * [SCSS](https://sass-lang.com/)
 
 <!-- GETTING STARTED -->
@@ -121,82 +114,6 @@ Run the following in the commandline/Terminal to run the tests:
    ```sh
    npm test -- --coverage
    ```
-
-
-
-<!-- FEATURES AND FUNCTIONALITY-->
-<!-- You can add the links to all of your imagery at the bottom of the file as references -->
-## Features and Functionality
-
-<!-- note how you can use your gitHub link. Just make a path to your assets folder -->
-![image2](https://drive.google.com/uc?export=view&id=1UH4OhB_J3WRT3ebfDSvTe1lIpC7kVpMN)
-
-### A budgeting website getting you on the right track!  
-
-Enter all members of your household in order to see a total tax bracket, total household income and income after tax 
-<!-- https://drive.google.com/file/d/1MflpyN2sWP3843t561NfatYW8lssk4Bw/view?usp=sharing -->
-![image3](https://drive.google.com/uc?export=view&id=1MflpyN2sWP3843t561NfatYW8lssk4Bw)
-### Visualised data for your household income
-
-See the incomes that have been added on chartsjs, this will showcase individual incomes, incomes after tax and tax amounts. 
-
-![image4](https://drive.google.com/uc?export=view&id=1E_jGjbXeIMBmt8fmVScJbbWwPWsQbCKp)
-
-### Manage your expenses and savings
-
-See what your income is after you enter all your expenses have been calculated and savings amount has been selected
-
-![image5](https://drive.google.com/uc?export=view&id=1B7zKSuGtwLjqDj0LJTPRZR1SwCSKpd5m)
-
-<!-- DEVELOPMENT PROCESS -->
-## Development Process
-
-The `Development Process` is the technical implementations and functionality done in the frontend and backend of the application.
-
-### Implementation Process
-<!-- stipulate all of the functionality you included in the project -->
-<!-- This is your time to shine, explain the technical nuances of your project, how did you achieve the final outcome!-->
-
-* Utilized React `Charts.JS` dependency for Data visualization
-* Implemented Routing with `Jest and React Testing Library`.
-* React Scroll for local navigation
-
-#### Highlights
-<!-- stipulated the highlight you experienced with the project -->
-* I learned about the importance of Unit testing and the value that it holds within industry.
-* Gained insights into how to refactor code in order to get the best possible outcome. This will be implemented in future projects
-* I learned about the different types of testing. While I am aware that this is a specialisation, I would like to learn more about it in the future. 
-
-#### Challenges
-<!-- stipulated the challenges you faced with the project and why you think you faced it or how you think you'll solve it (if not solved) -->
-* Charts were not able to be tested as they were registered as SVG elements and not components, thus making the data inaccesible to me (as far as I was aware).
-* Values showing NaN even though initial state was set to 0
-* Learning testing was one of the biggest challenges, this process was tedious to me and didn't make sense due to the fact that it was front end testing that could be visually seen if there was a bug. The challenge I had faced within the actual testing was understanding how to use the tests and that more tests did not mean they were better tests
-* PHP testing remains a challenge, this aspect doesn't make sense to me as of yet, but I do see the value of testing it. 
-
-
-#### Above And Beyond
-
-<!-- what did you learn outside of the classroom and implement into your project-->
-* React Scroll
-* React scroll is a dependancy that is similiar to React-Router, with the exception of navigation to sections of the component instead of rendering a new component. 
-
-### Future Implementation
-<!-- stipulate functionality and improvements that can be implemented in the future. -->
-
-* In future I would like to implement more charts to visualise all data
-* Take more of a component based development approach, this project was very dependant on the one component and I would like to utilise the power of React in a better manor in future. 
-
-<!-- MOCKUPS -->
-## Final Outcome
-
-### Mockups
-
-
-![image9](https://drive.google.com/uc?export=view&id=1UH4OhB_J3WRT3ebfDSvTe1lIpC7kVpMN)
-<br>
-
-![image10](https://drive.google.com/uc?export=view&id=1B7zKSuGtwLjqDj0LJTPRZR1SwCSKpd5m)
 
 ### Tests preview
 ![image11](https://drive.google.com/uc?export=view&id=1zO6qsn2wrcpfAUs3-_vqL6IHPOvi-az0)
