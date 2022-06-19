@@ -17,7 +17,7 @@
 <p align="center">
 
   <a href="https://github.com/Vian-du-Plessis/Rapid-Save">
-    <img src="https://drive.google.com/file/d/1xbFd7OvJXlaedvcAID9Zziva8Rj_cqdA/view?usp=sharing" alt="Logo" width="140" height="160">
+    <img src="https://drive.google.com/uc?export=view&id=1xbFd7OvJXlaedvcAID9Zziva8Rj_cqdA" alt="Logo" width="140" height="160">
   </a>
   
   <h2 align="center">Budget Nest</h2>
