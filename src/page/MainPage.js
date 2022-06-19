@@ -104,7 +104,6 @@ const MainPage = () => {
     
     const userName = useRef();
     const userIncome = useRef();
-    const userSaving = useRef();
     const getIncome = () => {
         let name = userName.current.value;
         let income = +userIncome.current.value;
@@ -159,7 +158,7 @@ const MainPage = () => {
                     </div>
                     <hr />
                     <div className={ styles.inputsContainer } >
-                        <input
+                        <Input
                             ref={userName}
                             className={styles.inputsContainer__inputs_name}
                             type='text'
@@ -167,7 +166,7 @@ const MainPage = () => {
                             aria-label='names'
                             placeholder='Name...'
                         />
-                        <input
+                        <Input
                             ref={userIncome}
                             className={styles.inputsContainer__inputs_income}
                             type='number'

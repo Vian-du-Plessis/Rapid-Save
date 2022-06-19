@@ -1,7 +1,3 @@
-import { render, screen } from "@testing-library/react";
-import userEvent from "@testing-library/user-event";
-import TestRenderer from 'react-test-renderer';
-import { act, create } from "react-test-renderer";
 import {sumOfIncome, averageIncome, calculateTax, expenseTotalSum, removeCard, savingsAmount, deductSavings} from './functions'
 
 describe("Test the household component", () =>{
@@ -52,7 +48,7 @@ describe("Test the household component", () =>{
         
     });
 
-    test("RemoveCard Index From Array", () => {
+    test("RemoveCard Index From Array ", () => {
         let array = [
             {name: 'Vian', amount: 1000},
             {name: 'Leander', amount: 1000},

@@ -1,27 +1,26 @@
-import Button from './Button';
-import "@testing-library/jest-dom/extend-expect";
+import Select from './Select';
 import TestRenderer from 'react-test-renderer';
 import { act, create } from "react-test-renderer";
 
 
-describe("Test the Button component", () =>{
-    test("Create Rendered Button ", () => {
+describe("Test the Select component ", () =>{
+    test("Create Rendered Select", () => {
 
         const testBtn = TestRenderer.create(
-            <Button
-                label='Add expense'
+            <Select
+                defaultValue='10%'
             />
         );
         const btnTestInstance = testBtn.root;
-        expect(btnTestInstance.findByType(Button).props.label).toBe["Add expense"];
+        expect(btnTestInstance.findByType(Select).props.defaultValue).toBe["10%"];
     });
 
-    test("Button Matches Snapshot", async () => {
+    test("Select Matches Snapshot", async () => {
         let root;
         await act(() => {
             root = create(            
-                <Button
-                    label='Add expense'
+                <Select
+                    defaultValue='10%'
                 />
             );
         });
@@ -30,8 +29,8 @@ describe("Test the Button component", () =>{
 
         act(() => {
             root.update(
-                <Button
-                    label='Add expense'
+                <Select
+                    defaultValue='10%'
                 />
             );
             expect(root.toJSON()).toMatchSnapshot();

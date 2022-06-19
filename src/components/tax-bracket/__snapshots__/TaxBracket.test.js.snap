@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test Income Summary Component... Snapshot of component 1`] = `
+exports[`Test Income Summary Component...  Snapshot of component 1`] = `
 <div
   className="container"
 >
@@ -19,7 +19,7 @@ exports[`Test Income Summary Component... Snapshot of component 1`] = `
 </div>
 `;
 
-exports[`Test Income Summary Component... Snapshot of component 2`] = `
+exports[`Test Income Summary Component...  Snapshot of component 2`] = `
 <div
   className="container"
 >

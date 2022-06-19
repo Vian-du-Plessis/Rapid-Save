@@ -3,7 +3,7 @@ import { render, screen } from "@testing-library/react";
 import userEvent from '@testing-library/user-event';
 
 describe("Test the Input component", () =>{
-        test("Test to see if values are empty on render", () => {
+        test("Test to see if values are empty on render ", () => {
             render(<Expense/>)
 
             const expenseTitle = screen.getByPlaceholderText(/Expense name.../i);

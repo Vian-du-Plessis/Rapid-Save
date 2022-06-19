@@ -3,7 +3,7 @@ import TestRenderer from 'react-test-renderer';
 import { act, create } from "react-test-renderer";
 
 
-describe("Test the Input component", () =>{
+describe("Test the Input component ", () =>{
     test("Create Rendered Input", () => {
 
         const testBtn = TestRenderer.create(

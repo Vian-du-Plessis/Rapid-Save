@@ -2,7 +2,7 @@ import UserIncome from "../income/UserIncome";
 import { render, screen } from "@testing-library/react";
 import userEvent from '@testing-library/user-event';
 
-describe("Testing our form interaction...", () => {
+describe("Testing our form interaction... ", () => {
 
     test("checking to see if our inputs are empty...", () => {
         render(<UserIncome/>) 

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the Select component  Select Matches Snapshot 1`] = `
+<select>
+  <option>
+    10%
+  </option>
+</select>
+`;
+
+exports[`Test the Select component  Select Matches Snapshot 2`] = `
+<select>
+  <option>
+    10%
+  </option>
+</select>
+`;

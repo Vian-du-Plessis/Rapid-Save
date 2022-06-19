@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test the Input component Input Matches Snapshot 1`] = `
+exports[`Test the Input component  Input Matches Snapshot 1`] = `
 <input
   name=""
   placeholder="No Label"
@@ -8,7 +8,7 @@ exports[`Test the Input component Input Matches Snapshot 1`] = `
 />
 `;
 
-exports[`Test the Input component Input Matches Snapshot 2`] = `
+exports[`Test the Input component  Input Matches Snapshot 2`] = `
 <input
   name=""
   placeholder="No Label"

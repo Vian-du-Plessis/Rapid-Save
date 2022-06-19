@@ -1,6 +1,5 @@
 import IncomeSummary from "./IncomeSummary";
 import { render, screen } from "@testing-library/react";
-import userEvent from '@testing-library/user-event';
 import "@testing-library/jest-dom/extend-expect";
 import renderer from 'react-test-renderer';
 
@@ -13,7 +12,7 @@ const IncomeSummaryProps = {
     subbodyTwo: 'R 0'
 }
 
-describe("Test Income Summary Component...", () => {
+describe("Test Income Summary Component... ", () => {
 
     test("Show correct title...", () => {
         render(

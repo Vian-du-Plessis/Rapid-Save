@@ -14,7 +14,7 @@ const TaxBracketProps = {
     value: taxObject
 }
 
-describe("Test Income Summary Component...", () => {
+describe("Test Income Summary Component... ", () => {
 
     test("Show correct title...", () => {
         render(

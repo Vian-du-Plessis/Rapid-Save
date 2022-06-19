@@ -1,6 +1,5 @@
 import IncomeAfterTax from "./IncomeAfterTax";
 import { render, screen } from "@testing-library/react";
-import userEvent from '@testing-library/user-event';
 import "@testing-library/jest-dom/extend-expect";
 import renderer from 'react-test-renderer';
 
@@ -14,7 +13,7 @@ const IncomeAfterTaxProps = {
     value: object
 }
 
-describe("Test Income After Tax Component...", () => {
+describe("Test Income After Tax Component... ", () => {
 
     test("Show correct title...", () => {
         render(

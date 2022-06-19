@@ -12,18 +12,8 @@ const Savings = (props) => {
     const [income, setIncome] = useState(0);
 
     useEffect(() => {
-        console.log(props.income)
+        console.log('shap')
     }, [props.income]);
-
-/*      const savingsAmount = (amount, percentage) => {
-        let saveAmount = amount.amount * percentage;
-        return saveAmount;
-    }
-
-    const deductSavings = (amount, deductAmount) => {
-        let newAmount = amount.amount - deductAmount;
-        return newAmount;
-    }  */
 
     const savingsPercentage = useRef();
     const calculateSavings = () => {
