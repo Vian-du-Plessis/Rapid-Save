@@ -58,8 +58,6 @@
 <!-- 1UH4OhB_J3WRT3ebfDSvTe1lIpC7kVpMN -->
 ### Project Description
 
-Budget Nest is a web based application that has been build with React, Chartsjs, Bootstrap, SCSS, Jest and RTL. This application focuses on giving users the opportunity to view their finances to find out what tax bracket they fall into, to list their expenses and set out an amount that they want to save. The web app will aid users in understanding their current finances through the visualisation of data through chartsjs. Budget Nests main goal is to deliver a flawless experience through making sure all features work, this is accomplished by the implementation of Jest/RTL unit testing library. 
-
 Rapid Save is a web app that has been built with React & SCSS. This app is used to help users keep track of their earnings and spending through a simple and easy to use interface. The development of this application was aided through the use of RTL & Jest to ensure that all features and functionality work.
 
 ### Built With
