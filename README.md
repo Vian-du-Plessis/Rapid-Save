@@ -47,10 +47,6 @@
 * :point_right: [Prerequisites](#prerequisites)
 * :point_right: [How to install](#how-to-install)
 * :point_right: [Tests](#implementation-process)
-* :point_right: [Final Outcome](#final-outcome)
-* :point_right: [Mockups](#mockups)
-* :point_right: [Video Demonstration](#video-demonstration)
-* :point_right: [Conclusion](#conclusion)
 * :point_right: [License](#license)
 * :point_right: [Contact](#contact)
 * :point_right: [Acknowledgements](#acknowledgements)
@@ -116,24 +112,18 @@ Run the following in the commandline/Terminal to run the tests:
    ```
 
 ### Tests preview
-![image11](https://drive.google.com/uc?export=view&id=1zO6qsn2wrcpfAUs3-_vqL6IHPOvi-az0)
+![image11](https://drive.google.com/file/d/1lgFw12AOc-jGncljhcWtsqJFGFgfdpEk/view?usp=sharing)
 <br>
-Above showcases a snippet of the tests that were run in Budget Nest
+Above showcases a snippet of the tests that were run
 
 ### Code coverage
-![image11](https://drive.google.com/uc?export=view&id=10jhz91KOtkHgXvgG_0BUFj0hXApc75I8)
+![image11](https://drive.google.com/file/d/1PpTEdz9hc4WEEibE5Q7-XwB0AnJmP5sh/view?usp=sharing)
 <br>
-Above you can see the amount of code that was covered in the document through the implementation of tests
+Above is the amount of code that was covered throughout all the code
 
 
 
 
-<!-- VIDEO DEMONSTRATION -->
-### Video Demonstration
-
-To see a run through of the application, click below:
-
-[View Demonstration](path/to/video/demonstration)
 
 
 See the [open issues](https://github.com/Vian-du-Plessis/Rapid-Save/pulse) for a list of proposed features (and known issues).
