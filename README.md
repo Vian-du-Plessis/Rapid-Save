@@ -1,70 +1,244 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<!-- Repository Information & Links-->
+<br />
 
-In the project directory, you can run:
+![GitHub repo size](https://img.shields.io/github/repo-size/Vian-du-Plessis/Rapid-Save)
+![GitHub watchers](https://img.shields.io/github/watchers/Vian-du-Plessis/Rapid-Save)
+![GitHub language count](https://img.shields.io/github/languages/count/Vian-du-Plessis/Rapid-Save)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Vian-du-Plessis/Rapid-Save)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- HEADER SECTION -->
+<h5 align="center" style="padding:0;margin:0;">Vian du Plessis</h5>
+<h5 align="center" style="padding:0;margin:0;">21100483</h5>
+<h6 align="center">DV202 Unit testing- Term 2 | 2022</h6>
+</br>
+<p align="center">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <a href="https://github.com/Vian-du-Plessis/Rapid-Save">
+    <img src="https://drive.google.com/uc?export=view&id=1z774ujlhRg6xsgnICGL_N6jVTPHwFj8E" alt="Logo" width="140" height="160">
+  </a>
+  
+  <h2 align="center">Budget Nest</h2>
 
-### `npm test`
+  <p align="center">
+    This is a project that has been built with React in order to learn the fundamentals of Jest & RTL (React Testing Library), the aim of the project is to help users understand their income and to budget! 
+    <br/>
+    <i>This project is not live, the main aim was to implement tests!</i> 
+    
+   <br />
+   <br />
+   <a href="path/to/demonstration/video">View Demo</a>
+    ·
+    <a href="https://github.com/Vian-du-Plessis/Rapid-Save/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Vian-du-Plessis/Rapid-Save/issues">Request Feature</a>
+    ·
+    <a href="https://github.com/Vian-du-Plessis/Rapid-Save/issues">Suggest Tests</a>
+</p>
+<!-- TABLE OF CONTENTS -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Table of Contents
 
-### `npm run build`
+* :point_right: [About the Project](#about-the-project)
+* :point_right: [Project Description](#project-description)
+* :point_right: [Built With](#built-with)
+* :point_right: [Getting Started](#getting-started)
+* :point_right: [Prerequisites](#prerequisites)
+* :point_right: [How to install](#how-to-install)
+* :point_right: [Features and Functionality](#features-and-functionality)
+* :point_right: [Development Process](#development-process)
+* :point_right: [Implementation Process](#implementation-process)
+* :point_right: [Tests](#implementation-process)
+* :point_right: [Highlights](#highlights)
+* :point_right: [Challenges](#challenges)
+* :point_right: [Future Implementation](#peer-reviews)
+* :point_right: [Final Outcome](#final-outcome)
+* :point_right: [Mockups](#mockups)
+* :point_right: [Video Demonstration](#video-demonstration)
+* :point_right: [Conclusion](#conclusion)
+* :point_right: [License](#license)
+* :point_right: [Contact](#contact)
+* :point_right: [Acknowledgements](#acknowledgements)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!--PROJECT DESCRIPTION-->
+## About the Project
+<!-- header image of project -->
+![image1](https://drive.google.com/uc?export=view&id=1ygReZG2dQx5cSUzZeJiPnNOWSM5_A80Z)
+<!-- 1UH4OhB_J3WRT3ebfDSvTe1lIpC7kVpMN -->
+### Project Description
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Budget Nest is a web based application that has been build with React, Chartsjs, Bootstrap, SCSS, Jest and RTL. This application focuses on giving users the opportunity to view their finances to find out what tax bracket they fall into, to list their expenses and set out an amount that they want to save. The web app will aid users in understanding their current finances through the visualisation of data through chartsjs. Budget Nests main goal is to deliver a flawless experience through making sure all features work, this is accomplished by the implementation of Jest/RTL unit testing library. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Built With
 
-### `npm run eject`
+* [React](https://reactjs.org/)
+* [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+* [Jest](https://jestjs.io/)
+* [Bootstrap](https://getbootstrap.com/)
+* [Chartsjs](https://www.chartjs.org/)
+* [SCSS](https://sass-lang.com/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!-- GETTING STARTED -->
+<!-- Make sure to add appropriate information about what prerequesite technologies the user would need and also the steps to install your project on their own mashines -->
+## Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The following instructions will assist you downloading the project on your local machine. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerequisites
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Ensure that you have the latest version of [NPM](https://www.npmjs.com/) installed on your machine. The [GitHub Desktop](https://desktop.github.com/) program will also be required.
 
-## Learn More
+### How to install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Installation
+Here are a couple of ways to clone this repo:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. GitHub Desktop </br>
+Enter `https://github.com/Vian-du-Plessis/Rapid-Save.git` into the URL field and press the `Clone` button.
 
-### Code Splitting
+2. Clone Repository </br>
+Run the following in the command-line to clone the project:
+   ```sh
+   git clone https://github.com/Vian-du-Plessis/Rapid-Save.git
+   ```
+    Open `Software` and select `File | Open...` from the menu. Select cloned directory and press `Open` button
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. Install Dependencies </br>
+Run the following in the command-line to install all the required dependencies:
+   ```sh
+   npm install
+   ```
 
-### Analyzing the Bundle Size
+4. Install Dependencies </br>
+Run the following in the commandline/Terminal to run the tests:
+   ```sh
+   npm test
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ 5. run the following to see the code coverage of the tests </br>
+   ```sh
+   npm test -- --coverage
+   ```
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+<!-- FEATURES AND FUNCTIONALITY-->
+<!-- You can add the links to all of your imagery at the bottom of the file as references -->
+## Features and Functionality
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<!-- note how you can use your gitHub link. Just make a path to your assets folder -->
+![image2](https://drive.google.com/uc?export=view&id=1UH4OhB_J3WRT3ebfDSvTe1lIpC7kVpMN)
 
-### Deployment
+### A budgeting website getting you on the right track!  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Enter all members of your household in order to see a total tax bracket, total household income and income after tax 
+<!-- https://drive.google.com/file/d/1MflpyN2sWP3843t561NfatYW8lssk4Bw/view?usp=sharing -->
+![image3](https://drive.google.com/uc?export=view&id=1MflpyN2sWP3843t561NfatYW8lssk4Bw)
+### Visualised data for your household income
 
-### `npm run build` fails to minify
+See the incomes that have been added on chartsjs, this will showcase individual incomes, incomes after tax and tax amounts. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![image4](https://drive.google.com/uc?export=view&id=1E_jGjbXeIMBmt8fmVScJbbWwPWsQbCKp)
+
+### Manage your expenses and savings
+
+See what your income is after you enter all your expenses have been calculated and savings amount has been selected
+
+![image5](https://drive.google.com/uc?export=view&id=1B7zKSuGtwLjqDj0LJTPRZR1SwCSKpd5m)
+
+<!-- DEVELOPMENT PROCESS -->
+## Development Process
+
+The `Development Process` is the technical implementations and functionality done in the frontend and backend of the application.
+
+### Implementation Process
+<!-- stipulate all of the functionality you included in the project -->
+<!-- This is your time to shine, explain the technical nuances of your project, how did you achieve the final outcome!-->
+
+* Utilized React `Charts.JS` dependency for Data visualization
+* Implemented Routing with `Jest and React Testing Library`.
+* React Scroll for local navigation
+
+#### Highlights
+<!-- stipulated the highlight you experienced with the project -->
+* I learned about the importance of Unit testing and the value that it holds within industry.
+* Gained insights into how to refactor code in order to get the best possible outcome. This will be implemented in future projects
+* I learned about the different types of testing. While I am aware that this is a specialisation, I would like to learn more about it in the future. 
+
+#### Challenges
+<!-- stipulated the challenges you faced with the project and why you think you faced it or how you think you'll solve it (if not solved) -->
+* Charts were not able to be tested as they were registered as SVG elements and not components, thus making the data inaccesible to me (as far as I was aware).
+* Values showing NaN even though initial state was set to 0
+* Learning testing was one of the biggest challenges, this process was tedious to me and didn't make sense due to the fact that it was front end testing that could be visually seen if there was a bug. The challenge I had faced within the actual testing was understanding how to use the tests and that more tests did not mean they were better tests
+* PHP testing remains a challenge, this aspect doesn't make sense to me as of yet, but I do see the value of testing it. 
+
+
+#### Above And Beyond
+
+<!-- what did you learn outside of the classroom and implement into your project-->
+* React Scroll
+* React scroll is a dependancy that is similiar to React-Router, with the exception of navigation to sections of the component instead of rendering a new component. 
+
+### Future Implementation
+<!-- stipulate functionality and improvements that can be implemented in the future. -->
+
+* In future I would like to implement more charts to visualise all data
+* Take more of a component based development approach, this project was very dependant on the one component and I would like to utilise the power of React in a better manor in future. 
+
+<!-- MOCKUPS -->
+## Final Outcome
+
+### Mockups
+
+
+![image9](https://drive.google.com/uc?export=view&id=1UH4OhB_J3WRT3ebfDSvTe1lIpC7kVpMN)
+<br>
+
+![image10](https://drive.google.com/uc?export=view&id=1B7zKSuGtwLjqDj0LJTPRZR1SwCSKpd5m)
+
+### Tests preview
+![image11](https://drive.google.com/uc?export=view&id=1zO6qsn2wrcpfAUs3-_vqL6IHPOvi-az0)
+<br>
+Above showcases a snippet of the tests that were run in Budget Nest
+
+### Code coverage
+![image11](https://drive.google.com/uc?export=view&id=10jhz91KOtkHgXvgG_0BUFj0hXApc75I8)
+<br>
+Above you can see the amount of code that was covered in the document through the implementation of tests
+
+
+
+
+<!-- VIDEO DEMONSTRATION -->
+### Video Demonstration
+
+To see a run through of the application, click below:
+
+[View Demonstration](path/to/video/demonstration)
+
+
+See the [open issues](https://github.com/Vian-du-Plessis/Rapid-Save/pulse) for a list of proposed features (and known issues).
+
+<!-- AUTHORS -->
+## Authors
+
+* **Vian du Plessis** - [Vian du Plessis](https://github.com/Vian-du-Plessis/)
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.\
+
+<!-- LICENSE -->
+## Contact
+
+* **Vian du Plessis** - [Leander.vaonline@gmail.com](mailto:viandupie@gmail.com)
+* **Project Link** - https://github.com/Vian-du-Plessis/Rapid-Save
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+<!-- all resources that you used and Acknowledgements here -->
+* [SARS: Rates of Tax for Individuals](https://www.sars.gov.za/tax-rates/income-tax/rates-of-tax-for-individuals/)
+* [Old Mutual tax calculator](https://www.oldmutual.co.za/personal/tools-and-calculators/income-tax-calculator/)
