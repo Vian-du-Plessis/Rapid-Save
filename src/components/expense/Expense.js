@@ -13,6 +13,8 @@ const Expense = (props) => {
 
     const [netIncome, setNetIncome] = useState(0);
 
+    const [incomeSend, setIncomeSend] = useState(0);
+
     useEffect(() => {
         setNetIncome(props.netIncome);
         console.log(props.netIncome)
@@ -21,13 +23,27 @@ const Expense = (props) => {
     const expenseTotalSum = (prevValue, nextValue) => {
         let expenseTotal = prevValue + nextValue;
         setExpenseTotal(expenseTotal);
+
+        let newNetIncome = netIncome - expenseTotal;
+        props.finalNetIncome(newNetIncome);
+        setIncomeSend(newNetIncome);
+
         return expenseTotal;
     }
 
     const removeCard = (keyVal, amount) => {
         let newArr = expenses.filter((x, index)  => index !== keyVal);
         setExpenses(newArr);
-        setExpenseTotal(expenseTotal - amount)
+
+        console.log(amount)
+
+        setExpenseTotal(expenseTotal - amount);
+
+        let incomeCalc = incomeSend + amount
+
+        props.finalNetIncome(incomeCalc);
+        setIncomeSend(incomeCalc);
+
         return newArr;
     }
     

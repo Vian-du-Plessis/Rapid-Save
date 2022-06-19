@@ -30,6 +30,10 @@ const MainPage = () => {
     const [incomeArr, setIncomeArr] = useState([]);
 
     const [taxArr, setTaxArr] = useState([]);
+
+    const [finalIncome, setFinalIncome] = useState({
+        amount: 0
+    })
     
 /*     // This function needs to be tested.
     const sumOfIncome = (prevValue, nextValue) => {
@@ -96,6 +100,8 @@ const MainPage = () => {
         return {tax: tax, taxMessage: taxMessage};
     } */
 
+
+    
     const userName = useRef();
     const userIncome = useRef();
     const userSaving = useRef();
@@ -113,7 +119,9 @@ const MainPage = () => {
             messageTwo: calculateTax(income, name).messageTwo,
         }
 
-        setNetIncome(calculateTax(income, name).incomeAfter);
+        let prevNetIncome = netIncome;
+
+        setNetIncome( prevNetIncome + calculateTax(income, name).incomeAfter);
 
         if(name == '' || income == '') {
             alert('Please make sure to add a Name and the Income');
@@ -204,8 +212,11 @@ const MainPage = () => {
                         <div className={ styles.expenseContainer }>
                             <Expense
                                 netIncome={netIncome}
+                                finalNetIncome={item => setFinalIncome({...finalIncome, amount: item})}
                             />
-                            <Savings/>
+                            <Savings
+                                income={finalIncome}
+                            />
                         </div>
                     </div>
                 </div>
