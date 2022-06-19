@@ -64,11 +64,7 @@ export const calculateTax = (income, name) => {
     return {tax: Math.round(tax), taxMessage: taxMessage, incomeAfter: netIncome, messageTwo: messageTwo};
 }
 
-// calculates the total expense
-export const expenseTotalSum = (prevValue, nextValue) => {
-    let expenseTotal = prevValue + nextValue;
-    return expenseTotal;
-}
+
 
 // removes the expense card
 export const removeCard = (keyVal, arr) => {

@@ -5,7 +5,12 @@ import styles from './Expense.module.scss';
 import ExpenseCard from '../expense-card/ExpenseCard';
 import Input from '../input/Input';
 import Button from '../button/Button';
-import { removeCard } from '../../functions/functions';
+
+ export const expenseTotalSum = (prevValue, nextValue, netIncomeValue) => {
+    let expenseTotal = prevValue + nextValue;
+    let newNetIncome = netIncomeValue - expenseTotal;
+    return {expenseTotal: expenseTotal, newNetIncome: newNetIncome};
+}
 
 const Expense = (props) => {
 
@@ -19,17 +24,6 @@ const Expense = (props) => {
     useEffect(() => {
         setNetIncome(props.netIncome);
     }, [props.netIncome])
-
-    const expenseTotalSum = (prevValue, nextValue) => {
-        let expenseTotal = prevValue + nextValue;
-        setExpenseTotal(expenseTotal);
-
-        let newNetIncome = netIncome - expenseTotal;
-        props.finalNetIncome(newNetIncome);
-        setIncomeSend(newNetIncome);
-
-        return expenseTotal;
-    }
 
     const removeCard = (keyVal, amount) => {
         let newArr = expenses.filter((x, index)  => index !== keyVal);
@@ -59,9 +53,11 @@ const Expense = (props) => {
         if(name == '' || amount == '') {
             alert('Please add a expense and expense name')
         } else {
-            setExpenseTotal(
-                expenseTotalSum(expenseTotal, amount)
-            );
+
+            setExpenseTotal(expenseTotalSum(expenseTotal, amount, netIncome).expenseTotal);
+
+            props.finalNetIncome(expenseTotalSum(expenseTotal, amount, netIncome).newNetIncome);
+            setIncomeSend(expenseTotalSum(expenseTotal, amount, netIncome).newNetIncome);
 
             setExpenses((prev) => (
                 [...prev, expenseArr]

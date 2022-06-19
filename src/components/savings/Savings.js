@@ -9,6 +9,7 @@ import { savingsAmount, deductSavings } from '../../functions/functions';
 const Savings = (props) => {
 
     const [savings, setSavings] = useState(0);
+    
     const [income, setIncome] = useState(0);
 
     useEffect(() => {

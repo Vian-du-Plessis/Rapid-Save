@@ -1,4 +1,5 @@
-import {sumOfIncome, averageIncome, calculateTax, expenseTotalSum, removeCard, savingsAmount, deductSavings} from './functions'
+import {sumOfIncome, averageIncome, calculateTax, removeCard, savingsAmount, deductSavings} from './functions'
+import {expenseTotalSum} from '../components/expense/Expense';
 
 describe("Test the household component", () =>{
     test("Sum of incomes added", () => {
@@ -41,10 +42,11 @@ describe("Test the household component", () =>{
     test("Calculate ExpenseTotal", () => {
         let previousValue = 10000;
         let value = 5000;
+        let income = 1000;
 
         let total = previousValue + value;
 
-        expect(expenseTotalSum(previousValue, value)).toBe(total);
+        expect(expenseTotalSum(previousValue, value, income).expenseTotal).toBe(total);
         
     });
 
@@ -85,5 +87,18 @@ describe("Test the household component", () =>{
         let savings = 500;
 
         expect(deductSavings(object, savings)).toBe(testFinalAmount);
+    });
+
+    test("Test if the total sum of all expenses is correct", () => {
+        let testPrevValue = 1000;
+        let testValue = 105;
+        let testIncome = 15000;
+        let testTotalExpense = testPrevValue + testValue;
+        let testTotalIncome = testIncome - testTotalExpense;
+
+        console.log(expenseTotalSum(testPrevValue, testValue, testIncome))
+
+        expect(expenseTotalSum(testPrevValue, testValue, testIncome).expenseTotal).toBe(testTotalExpense);
+        expect(expenseTotalSum(testPrevValue, testValue, testIncome).newNetIncome).toBe(testTotalIncome);
     });
 });
