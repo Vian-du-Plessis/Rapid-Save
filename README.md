@@ -143,7 +143,7 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 <!-- LICENSE -->
 ## Contact
 
-* **Vian du Plessis** - [Leander.vaonline@gmail.com](mailto:viandupie@gmail.com)
+* **Vian du Plessis** - [viandupie@gmail.com](mailto:viandupie@gmail.com)
 * **Project Link** - https://github.com/Vian-du-Plessis/Rapid-Save
 
 <!-- ACKNOWLEDGEMENTS -->
