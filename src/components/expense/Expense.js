@@ -5,6 +5,7 @@ import styles from './Expense.module.scss';
 import ExpenseCard from '../expense-card/ExpenseCard';
 import Input from '../input/Input';
 import Button from '../button/Button';
+import { removeCard } from '../../functions/functions';
 
 const Expense = (props) => {
 
@@ -17,7 +18,6 @@ const Expense = (props) => {
 
     useEffect(() => {
         setNetIncome(props.netIncome);
-        console.log(props.netIncome)
     }, [props.netIncome])
 
     const expenseTotalSum = (prevValue, nextValue) => {
@@ -35,8 +35,6 @@ const Expense = (props) => {
         let newArr = expenses.filter((x, index)  => index !== keyVal);
         setExpenses(newArr);
 
-        console.log(amount)
-
         setExpenseTotal(expenseTotal - amount);
 
         let incomeCalc = incomeSend + amount
@@ -46,7 +44,6 @@ const Expense = (props) => {
 
         return newArr;
     }
-    
 
     let expenseName = useRef();
     let expenseAmount = useRef();
@@ -93,6 +90,7 @@ const Expense = (props) => {
                 <Button
                     label='Add expense'
                     onClick={addExpense}
+                    aria='Expense Button'
                 />
             </div>
             <hr />

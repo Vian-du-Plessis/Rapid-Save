@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import TestRenderer from 'react-test-renderer';
 import { act, create } from "react-test-renderer";
-import {sumOfIncome, averageIncome, calculateTax, expenseTotalSum, removeCard} from './functions'
+import {sumOfIncome, averageIncome, calculateTax, expenseTotalSum, removeCard, savingsAmount, deductSavings} from './functions'
 
 describe("Test the household component", () =>{
     test("Sum of incomes added", () => {
@@ -67,5 +67,27 @@ describe("Test the household component", () =>{
         let testedFunction = removeCard(0, array);
 
         expect(testedFunction).toStrictEqual (testArr);
+    });
+
+    test("Test if savings amount is correct", () => {
+        let testAmount = 1000;
+        let testSavings = 0.5;
+        let testSavingAmount = testAmount * testSavings;
+
+        let object = {amount: 1000};
+        let savings = 0.5;
+
+        expect(savingsAmount(object, savings)).toBe(testSavingAmount);
+    });
+
+    test("Test if correct Amount is displayed after deductions", () => {
+        let testAmount = 1000;
+        let testDeduct = 500;
+        let testFinalAmount = testAmount - testDeduct;
+
+        let object = {amount: 1000};
+        let savings = 500;
+
+        expect(deductSavings(object, savings)).toBe(testFinalAmount);
     });
 });

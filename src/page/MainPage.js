@@ -175,14 +175,6 @@ const MainPage = () => {
                             aria-label='income'
                             placeholder='Income per month...'
                         />
-                        <input
-                            ref={userSaving}
-                            className={styles.inputsContainer__inputs_income}
-                            type='number'
-                            name='saving'
-                            aria-label='saving'
-                            placeholder='Saving percentage...'
-                        />
                     </div>   
                     <div className={ styles.buttonContainer }>
                         <Button

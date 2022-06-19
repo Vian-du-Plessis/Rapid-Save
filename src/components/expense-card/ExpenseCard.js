@@ -8,7 +8,7 @@ const ExpenseCard = (props) => {
         <div className={ styles.container }>
             <div className={ styles.leftContainer }>
                 <h4>{props.title}</h4>
-                <h4>{props.price}</h4>
+                <h4>R {props.price}</h4>
             </div>
             <div className={ styles.rightContainer }>
                 <div 

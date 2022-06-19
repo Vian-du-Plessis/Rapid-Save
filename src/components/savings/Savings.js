@@ -4,16 +4,44 @@ import styles from './Savings.module.scss';
 import Button from '../button/Button';
 import Input from '../input/Input';
 
+import { savingsAmount, deductSavings } from '../../functions/functions'; 
+
 const Savings = (props) => {
+
+    const [savings, setSavings] = useState(0);
+    const [income, setIncome] = useState(0);
 
     useEffect(() => {
         console.log(props.income)
     }, [props.income]);
 
+/*      const savingsAmount = (amount, percentage) => {
+        let saveAmount = amount.amount * percentage;
+        return saveAmount;
+    }
+
+    const deductSavings = (amount, deductAmount) => {
+        let newAmount = amount.amount - deductAmount;
+        return newAmount;
+    }  */
+
     const savingsPercentage = useRef();
     const calculateSavings = () => {
         let perc = savingsPercentage.current.value;
-        console.log("🚀 ~ file: Savings.js ~ line 16 ~ calculateSavings ~ perc", perc)
+        let incomeValue = props.income;
+        
+        if(perc == '' ) {
+            alert('Please add a savings percentage')
+        } else {
+            if(perc.split('.')[0] == 0 ) {
+                perc = perc;
+            } else {
+                perc = perc/100;
+            }
+        }
+
+        setSavings(Math.round(savingsAmount(incomeValue, perc)));
+        setIncome(Math.round(deductSavings(incomeValue, savingsAmount(incomeValue, perc))));
     }
     
     return (
@@ -21,7 +49,7 @@ const Savings = (props) => {
             <div className={ styles.headingContainer }>
                 <h3>Savings</h3>
                 <Button
-                    label='Calculate Savings '
+                    label='Calculate Savings'
                     onClick={calculateSavings}
                 />
             </div>
@@ -34,11 +62,11 @@ const Savings = (props) => {
                 />
                 <div className={ styles}>
                     <h5>Savings amount</h5>
-                    <h4>R1 540</h4>
+                    <h4>R{savings}</h4>
                 </div>
                 <div className={ styles}>
                     <h5>Final Income</h5>
-                    <h4>R40</h4>
+                    <h4>R{income}</h4>
                 </div>
             </div>
         </div>

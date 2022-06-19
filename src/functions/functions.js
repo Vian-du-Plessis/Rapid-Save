@@ -1,15 +1,16 @@
+// calculates all the incomes together
 export const sumOfIncome = (prevValue, nextValue) => {
     let incomeTotal = prevValue + nextValue;
     return incomeTotal;
 }
 
-// This function needs to be tested.
+// calculates all the average incomes
 export const averageIncome = (income, totalIncomes) => {
     let incomeAverage = Math.round(income/totalIncomes);
     return incomeAverage;
 }
 
-// This function needs to be tested
+// calculate average of all the incomes
 export const calculateTax = (income, name) => {
     const rebate = 16425; // rebate that is deducted from the amount of tax
 
@@ -63,12 +64,26 @@ export const calculateTax = (income, name) => {
     return {tax: Math.round(tax), taxMessage: taxMessage, incomeAfter: netIncome, messageTwo: messageTwo};
 }
 
+// calculates the total expense
 export const expenseTotalSum = (prevValue, nextValue) => {
     let expenseTotal = prevValue + nextValue;
     return expenseTotal;
 }
 
+// removes the expense card
 export const removeCard = (keyVal, arr) => {
     let newArr = arr.filter((x, index) => index !== keyVal);
     return newArr;
+}
+
+// amount that all the people save
+export const savingsAmount = (amount, percentage) => {
+    let saveAmount = amount.amount * percentage;
+    return saveAmount;
+}
+
+// final income amount after savings
+export const deductSavings = (amount, deductAmount) => {
+    let newAmount = amount.amount - deductAmount;
+    return newAmount;
 }
