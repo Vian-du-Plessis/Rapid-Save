@@ -1,0 +1,28 @@
+@import '../../assets/base.scss';
+
+.container {
+    display: flex;
+    min-width: 250px;
+    width: fit-content;
+    padding: 10px 20px;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: space-between;
+    background-color: white;
+
+    .leftContainer {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+    }
+
+    .iconContainer {
+        padding: 5px;
+        border-radius: 8px;
+        background-color: #F0F2F5;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

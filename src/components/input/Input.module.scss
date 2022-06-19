@@ -1,0 +1,9 @@
+@import '../../assets/base.scss';
+
+input {
+    width: 100%;
+    padding: 5px 26px;
+    border-radius: 20px;
+    border: 1px solid $color-dark-blue;
+    outline: none;
+}

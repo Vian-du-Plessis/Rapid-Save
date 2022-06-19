@@ -1,0 +1,12 @@
+@import '../../assets/base.scss';
+
+select {
+    width: 150px;
+    padding: 12px 8px;
+    border-radius: 20px;
+    border: 1px solid $color-blue;
+
+    &:focus {
+        outline: none;
+    }
+}

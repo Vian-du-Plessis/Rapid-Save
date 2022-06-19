@@ -1,0 +1,33 @@
+@import '../../assets/base.scss';
+
+.container {
+    display: flex;
+    width: fit-content;
+    min-width: 409px;
+    min-height: 200px;
+    height: fit-content;
+    flex-flow: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 20px;
+
+    hr {
+        border: solid 1px black;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    h4 {
+        margin-bottom: 10px;
+    }
+
+    h5 {
+        margin-bottom: 30px;
+    }
+
+    h5:last-child {
+        margin-bottom: 0;
+    }
+}

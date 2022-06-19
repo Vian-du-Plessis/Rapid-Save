@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Income After Tax Component... Snapshot of component 1`] = `
+<div
+  className="container"
+>
+  <h3 />
+  <hr />
+</div>
+`;
+
+exports[`Test Income After Tax Component... Snapshot of component 2`] = `
+<div
+  className="container"
+>
+  <h3 />
+  <hr />
+</div>
+`;

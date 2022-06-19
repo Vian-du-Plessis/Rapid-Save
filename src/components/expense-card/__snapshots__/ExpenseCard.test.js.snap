@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the ExpenseCard component ExpenseCard Matches Snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="leftContainer"
+  >
+    <h4>
+      Water
+    </h4>
+    <h4>
+      R 1000
+    </h4>
+  </div>
+  <div
+    className="rightContainer"
+  >
+    <div
+      className="iconContainer"
+    >
+      <img
+        alt=""
+        src="close.svg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test the ExpenseCard component ExpenseCard Matches Snapshot 2`] = `
+<div
+  className="container"
+>
+  <div
+    className="leftContainer"
+  >
+    <h4>
+      Water
+    </h4>
+    <h4>
+      R 1000
+    </h4>
+  </div>
+  <div
+    className="rightContainer"
+  >
+    <div
+      className="iconContainer"
+    >
+      <img
+        alt=""
+        src="close.svg"
+      />
+    </div>
+  </div>
+</div>
+`;

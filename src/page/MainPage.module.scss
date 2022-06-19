@@ -1,0 +1,159 @@
+@import '../assets/base.scss';
+
+.outerContainer {
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    overflow: auto;
+    background-color: #EFF7FF;
+
+    .bottomContainer {
+        display: flex;
+        flex-grow: 1;
+
+        &__left {
+            border-radius: 0 20px 20px 0;
+            position: relative;
+            width: 20%;
+            height: 100%;
+            padding: 20px;
+            overflow: inherit;
+            background-color: #FFFFFF;
+            padding-bottom: 0;
+
+            &__heading {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 10px;
+            }
+
+            &__addIcon {
+                padding: 5px;
+                border-radius: 50%;
+                background-color: #134576;
+            }
+
+            hr {
+                margin-bottom: 30px;
+            }
+
+            &__addIcon {
+                position: absolute;
+                top: 50%;
+                right: -8%;
+                z-index: 0;
+            }
+        }
+
+        &__right {
+            gap: 50px;
+            width: 80%;
+            height: 100%;
+            padding: 10px 50px;
+            background-color: #EFF7FF;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    .bottomContainer__right__leftContainer {
+        width: fit-content;
+        float: left;
+        min-height: 100%;
+        height: fit-content;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        gap: 30px;
+    }
+
+    .bottomContainer__right__rightContainer {
+        width: fit-content;
+        float: left;
+        min-height: 100%;
+        height: fit-content;
+        width: 100%;
+    }
+
+    .expenseContainer {
+
+        .headingContainer {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            select {
+                border-radius: 20px;
+                padding: 12px 8px;
+                border: 1px solid #278BED
+            }
+
+            input {
+                width: 20%;
+            }
+        }
+    }
+
+    hr {
+        width: 100%;
+        margin-top: 8px;
+        margin-bottom: 30px;
+    }
+
+    .contentContainer {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .totalContainer {
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-bottom: 50px;
+    }
+
+    .totalBackground {
+        padding: 10px 20px;
+        border-radius: 20px;
+        background-color: #B5EDD4;
+    }
+
+    .inputsContainer {
+        
+        .inputsContainer__inputs_name {
+            margin-bottom: 20px;
+            padding: 5px 26px;
+            border-radius: 20px;
+            border: 1px solid $color-dark-blue;
+            outline: none;
+        }
+
+        .inputsContainer__inputs_income {
+            margin-bottom: 20px;
+            padding: 5px 26px;
+            border-radius: 20px;
+            border: 1px solid $color-dark-blue;
+            outline: none;
+        }
+    }
+
+    .buttonContainer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+
+        & > button {
+            background-color: #134576;
+            color: white;
+        }
+    }
+}

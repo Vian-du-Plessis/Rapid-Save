@@ -1,0 +1,37 @@
+@import '../../assets/base.scss';
+
+.container {
+    padding: 20px 22px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: white;
+
+    .headingContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        select {
+            border-radius: 20px;
+            padding: 12px 8px;
+            border: 1px solid #278BED
+        }
+    }
+
+    hr {
+        width: 100%;
+        margin-top: 8px;
+        margin-bottom: 30px;
+    }
+
+    .bottomContainer {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        input {
+            width: 25%;
+        }
+    }
+}
