@@ -54,7 +54,7 @@
 <!--PROJECT DESCRIPTION-->
 ## About the Project
 <!-- header image of project -->
-![image1](https://drive.google.com/uc?export=view&id=1ygReZG2dQx5cSUzZeJiPnNOWSM5_A80Z)
+![image1](https://drive.google.com/uc?export=view&id=1AQ3TguONcSJy_wpOHh5j7yUifrEEZ_bw)
 <!-- 1UH4OhB_J3WRT3ebfDSvTe1lIpC7kVpMN -->
 ### Project Description
 
@@ -110,12 +110,16 @@ Run the following in the commandline/Terminal to run the tests:
    ```
 
 ### Tests preview
-![image11](https://drive.google.com/file/d/1lgFw12AOc-jGncljhcWtsqJFGFgfdpEk/view?usp=sharing)
+![image11](https://drive.google.com/uc?export=view&id=1lgFw12AOc-jGncljhcWtsqJFGFgfdpEk)
+<br>
+![image12](https://drive.google.com/uc?export=view&id=1AFeLThd1JwHj5hmYHuNTxzQBjNWhcB-z)
+<br>
+![image13](https://drive.google.com/uc?export=view&id=1I-PeaSI1_qUvwxPyxka8jyQBTZiKLmXl)
 <br>
 Above showcases a snippet of the tests that were run
 
 ### Code coverage
-![image11](https://drive.google.com/file/d/1PpTEdz9hc4WEEibE5Q7-XwB0AnJmP5sh/view?usp=sharing)
+![image14](https://drive.google.com/uc?export=view&id=1PpTEdz9hc4WEEibE5Q7-XwB0AnJmP5sh)
 <br>
 Above is the amount of code that was covered throughout all the code
 
